@@ -1,0 +1,75 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family:sans-serif;
+}
+
+.contenitore{
+  height: 100%;
+  align-content: center;
+}
+
+.velo{
+  height: 650px;
+  width: 900px;
+  /* TRASPARENZA VELO NERO DI SFONDO */
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.velo-body{
+  margin-left: 80px;
+}
+
+.logo{
+  width: 200px;
+  margin-left: 345px;
+  margin-top: 90px;
+}
+
+.slogan{
+  color: #00DD00;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.bottoni{
+  font-size: 12px;
+}
+
+.sfondo-bottoni{
+  background-color: #00DD00;
+  width: 665px;
+}
+
+.info-utenti{
+  color: white;
+}
+
+.batteria-arancione{
+  background-color: #FFAE00;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  margin-top:-13px;
+}
+
+.batteria-verde{
+  background-color: #00DD00;
+  padding: 10px;
+  width: 400px;
+  border-radius: 3px;
+  margin-top:-13px;
+}
+
+.batteria-rossa{
+  background-color: #DC143C;
+  padding: 10px;
+  width: 80px;
+  border-radius: 3px;
+  margin-top:-13px;
+}
